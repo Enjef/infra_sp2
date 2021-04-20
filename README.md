@@ -27,7 +27,6 @@ docker-compose exec web python manage.py createsuperuser
 
 | Переменная | Описание |
 | ------ | ------ |
-| DB_ENGINE | указываем, что работаем с postgresql |
 | DB_NAME | имя базы данных |
 | POSTGRES_USER | логин для подключения к базе данных |
 | POSTGRES_PASSWORD | пароль для подключения к БД |
