@@ -8,7 +8,6 @@ RUN pip3 install -r /code/requirements.txt
 
 COPY . /code
 
-ENV DB_ENGINE django.db.backends.postgresql
 ENV DB_NAME postgres
 ENV POSTGRES_USER postgres
 ENV POSTGRES_PASSWORD notpostgrespass
